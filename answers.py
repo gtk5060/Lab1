@@ -84,27 +84,27 @@ wordy["1e"] = "execve: This executes the program. brk: Allocates space in the he
 
 # (2.a.i.32) size of compiled code (32-bit)
 #   Enter your answer in bytes.
-numerical["2ai32"] = 2148352
+numerical["2ai32"] = 2098
 
 # (2.a.ii.32) size of code during run time (32-bit)
 #   Enter your answer in bytes.
-numerical["2aii32"] = 9633792
+numerical["2aii32"] = "4096B, the size of the code marked executable." 
 
 # (2.a.iii.32) size of linked libraries (32-bit)
 #   Enter your answer in bytes.
-numerical["2aiii32"] = 1925120
+numerical["2aiii32"] = "2088960B, the combined total size of all .so files linked."
 
 # (2.a.i.64) size of compiled code (64-bit)
 #   Enter your answer in bytes.
-numerical["2ai64"] = 2223104
+numerical["2ai64"] = 2171
 
 # (2.a.ii.64) size of code during run time (64-bit)
 #   Enter your answer in bytes.
-numerical["2aii64"] = 11845632
+numerical["2aii64"] = "4096B, the size of the code marked executable."
 
 # (2.a.iii.64) size of linked libraries (64-bit)
 #   Enter your answer in bytes.
-numerical["2aiii64"] = 4116480
+numerical["2aiii64"] = "4284416,  the combined total size of all .so files linked."
 
 # (2.b) Use gdb to find the program statement that
 #   caused the error
@@ -134,27 +134,27 @@ wordy["2e"] = "Each invocation is 1200064 bytes, and contain: the starting locat
 
 # (3.a.i.32) size of compiled code (32-bit)
 #   Enter your answer in bytes.
-numerical["3ai32"] = 2409472
+numerical["3ai32"] = 2353
 
 # (3.a.ii.32) size of code during run time (32-bit)
 #   Enter your answer in bytes.
-numerical["3aii32"] = 447655936
+numerical["3aii32"] = "4096B, the size of the code marked executable." 
 
 # (3.a.iii.32) size of linked libraries (32-bit)
 #   Enter your answer in bytes.
-numerical["3aiii32"] = 2768896
+numerical["3aiii32"] = "2920448B, the combined total size of all .so files linked."
 
 # (3.a.i.64) size of compiled code (64-bit)
 #   Enter your answer in bytes.
-numerical["3ai64"] = 2549760
+numerical["3ai64"] = 2490
 
 # (3.a.ii.64) size of code during run time (64-bit)
 #   Enter your answer in bytes.
-numerical["3aii64"] = 452833280
+numerical["3aii64"] = "4096B, the size of the code marked executable." 
 
 # (3.a.iii.64) size of linked libraries (64-bit)
 #   Enter your answer in bytes.
-numerical["3aiii64"] = 7909376
+numerical["3aiii64"] = "8077312B, the combined total size of all .so files linked."
 
 # (3.b) Use valgrind to find the cause of the error
 #   including the program statement causing it
